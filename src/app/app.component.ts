@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  message: string = "Hello from BridgeLabz"; // Data property for interpolation
+  title = 'HelloWorld';
+  logoUrl = 'https://www.bridgelabz.com/assets/images/BridgeLabz%20New%20Logo.svg';
 }
